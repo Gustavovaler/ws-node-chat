@@ -1,0 +1,49 @@
+
+body{
+    background-color:  rgb(41, 41, 41);
+    color: rgb(49, 54, 58);
+}
+
+
+
+hr{
+    border-color: orangered;
+}
+
+h1{
+    color: orangered;
+}
+
+.card{
+    width: 40%;
+    border-color: orangered;
+    background-color: rgb(187, 181, 179);
+}
+.card-header{
+    background-color: rgb(41, 41, 41);
+    color: orangered;
+}
+
+.card-body{
+    min-height: 300px;
+}
+
+.msg{
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.own-msg{
+    background-color: rgb(198, 240, 243);
+    margin-left: 35px;
+}
+
+.other-msg{
+    background-color: rgb(198, 250, 139);
+    margin-right: 35px;
+}
+.actions{
+    margin-bottom: 15px;
+}

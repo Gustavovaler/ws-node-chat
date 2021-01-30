@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Socket.io</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="chat mt-3 p-3"> 
+            <h1>Chat App</h1>
+            <hr>
+            <div class="card">
+
+                <div class="card-header" id="header">
+                   Anónimo
+                </div>
+                <div class="card-body" id="chat-box">
+                    <!-- <p class=" msg own-msg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Consequatur deserunt totam cupiditate quo facilis maxime 
+                        repellat laudantium incidunt itaque labore.</p>
+                    <p class=" msg other-msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Excepturi quos nulla consequuntur delectus labore libero?</p> -->
+                </div>
+                <div class="card-footer">
+                    <div class="actions" id="is-typing"> </div>
+                    <input type="text" name="msg" id="text-box" class="form-control" placeholder="Escribe tu mensaje..."> <br>
+                    <button class="btn btn-info btn-block" id="btn-send"> Enviar mensaje</button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>
